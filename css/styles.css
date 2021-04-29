@@ -1,0 +1,276 @@
+#contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid ;
+}
+
+#header{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    background-image: linear-gradient(#273758, cornflowerblue);
+    background-color:cornflowerblue;
+}
+
+#title{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin: auto;
+}
+
+#body{
+    padding-top: 20px;
+    background-image: url("../img/back.jpg");
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding-bottom: 20px;
+}
+#personal_data{
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    align-content: space-around;
+
+    /*display: flex;
+    align-content: space-around;
+    margin: auto;*/
+}
+
+#photo{
+    /*border: 2px solid cornflowerblue;
+    width: 400px;
+    height: 300px;*/
+    background-image: url("../img/luiggi.jpg");
+    background-size: cover;
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    border: 2px solid cornflowerblue;
+
+}
+
+.photo_img{
+
+}
+
+#data{
+    /*padding-right: 40px;*/
+    /*margin-left: 50px; 
+    width: 400px;
+    height: 300px;
+    border: 2px solid cornflowerblue;*/
+
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    border: 2px solid cornflowerblue;
+    
+}
+
+#data:hover{  
+    background: #273758;   
+}
+
+#data:hover .item_list_dark{
+    color: #FFF;
+}
+
+
+#formation{
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    align-content: space-around;
+}
+
+#formation div{
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    border: 2px solid cornflowerblue;
+}
+
+#formation div:hover{
+    background: #273758;
+}
+
+.title_list{
+    background-color: cornflowerblue;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+.title_list_large{
+    background-color: cornflowerblue;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+.list{
+    list-style:circle;
+    
+}
+
+.item_list{
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: 13px;
+}
+
+.item_list_dark{
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #463e8f;
+    font-size: 13px;
+}
+
+#formation_levels{
+    padding-left: 40px;
+}
+
+#skils{
+    padding-right: 40px;
+}
+
+.table{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: white;
+}
+
+.table_topic{
+    background-color: cornflowerblue;
+    /*background-color:#4cac97;*/
+    color: white;
+}
+
+.table_link{
+    text-decoration: none;
+    color: white;
+}
+
+.table_link:hover{
+    font-style: italic;
+}
+
+#footer{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    background-color:#273758 ;
+}
+
+#sections_footer{
+    display: flex;
+    margin: auto;
+    width:  600px;
+    height: 250px;
+}
+
+#footer #social{
+    width: 250px;
+    height: 150px;
+}
+
+#title_social{
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: bold;
+    color: #8d8b8b;
+}
+
+.list_footer{
+    list-style: none;
+}
+
+.link_item_footer{
+    display: inline-block;
+    font-size: 20px;
+	text-decoration: none;
+	color: #D5D5D5;
+    
+}
+
+.link_item_footer:hover{
+    font-size: 22px;
+    font-style: italic;
+}
+
+#pages:hover{
+    background: #273758;
+}
+
+#footer #formu{
+    margin-left: 50px;
+    width: 250px;
+    height: 150px;
+}
+
+#title_formu{
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: bold;
+    color: #8d8b8b;
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input{
+    padding-top: 10px;
+}
+
+.button{
+    padding-top: 10px;
+}
+
+@media (max-width: 928px){
+
+#personal_data{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+    align-content: space-around;
+   
+}
+
+#formation{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+    align-content: space-around;
+}
+
+#col_description, #th_description{
+    display: none;
+}
+
+.table{
+    margin: auto;
+}
+
+
+#sections_footer{
+    display: flex;
+    margin: auto;
+    width:  400px;
+    height: 250px;
+}
+
+}
